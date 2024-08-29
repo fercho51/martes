@@ -231,11 +231,12 @@
         <hr>
         <div class="btn-center">
             <div class="btn-group">
-                <a href="productos.php" class="btn btn-primary"><i class="bi bi-arrow-left"></i> FINALIZAR</a>
+                <a href="productos.php" class="btn btn-primary"><i class="bi bi-arrow-left"></i> ATRAS</a>
                 <a href="ingresarproductos.php" class="btn btn-success"><i class="bi bi-plus"></i> AGREGAR OTRO</a>
                 <a href="total.php" class="btn btn-info"><i class="bi bi-currency-dollar"></i> MOSTRAR TOTALES</a>
             </div>
         </div>
+        
     </form>
 </body>
 </html>

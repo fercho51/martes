@@ -122,3 +122,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
 </body>
 </html>
+<!-- Imágenes del lado izquierdo -->
+<div class="left-images">
+        <img src="https://www.asesp.com.uy/imgnoticias/202103/W500_H325/6077.png" alt="Imagen 1" class="side-image">
+        <img src="https://th.bing.com/th/id/OIP.I4HLr29xZwQ-i5VFmQ62XAHaHa?pid=ImgDet&w=178&h=178&c=7&dpr=1,5" alt="Imagen 2" class="side-image">
+        <img src="https://th.bing.com/th/id/OIP.Hi_g2Ky5I2JYE4xr1QiR2QHaHa?pid=ImgDet&w=178&h=178&c=7&dpr=1,5" alt="Imagen 3" class="side-image">
+        <img src="https://th.bing.com/th/id/OIP.R6RWfHS4REitkzP46D7tRgHaHa?pid=ImgDet&w=199&h=199&c=7&dpr=1,5" alt="Imagen 4" class="side-image">
+    </div>
+
+    <!-- Imágenes del lado derecho -->
+    <div class="right-images">
+        <img src="https://th.bing.com/th/id/OIP.pcXsaJfGzaNETs-IYDy7cAAAAA?pid=ImgDet&w=199&h=296&c=7&dpr=1,5" alt="Imagen 5" class="side-image">
+        <img src="https://th.bing.com/th/id/OIP.upunyConk8XgNj-dG9mUgwHaHF?pid=ImgDet&w=199&h=189&c=7&dpr=1,5" alt="Imagen 6" class="side-image">
+        <img src="https://th.bing.com/th/id/OIP.2X1jD1KUfG7lG-ZwpR_n-wHaHa?pid=ImgDet&w=199&h=199&c=7&dpr=1,5" alt="Imagen 7" class="side-image">
+        <img src="https://th.bing.com/th/id/OIP.DYxArtDgYsoweC4CPCXL5gHaHZ?pid=ImgDet&w=199&h=199&c=7&dpr=1,5" alt="Imagen 8" class="side-image">
+    </div>

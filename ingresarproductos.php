@@ -96,6 +96,12 @@
             </div>
 
             <button type="submit" name="guardar" id="guardarBtn" class="btn custom-btn">GUARDAR</button>
+            
+        </form>
+        
+        <!-- Botón de Atrás -->
+        <form action="productos.php" method="get">
+            <input type="submit" value="Atrás" class="btn custom-btn">
         </form>
     </div>
 </body>
