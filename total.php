@@ -13,17 +13,13 @@
 
     <style>
         body {
-    margin: 0;
-    padding: 0;
-    background-image: url('https://img.freepik.com/vector-gratis/fondo-dibujado-mano-dia-nacional-medico_23-2149438164.jpg?size=626&ext=jpg&ga=GA1.1.496371488.1724340792&semt=ais_hybrid');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: Arial, sans-serif;
-}
-
-        /* Estilos personalizados */
-        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://img.freepik.com/vector-gratis/fondo-dibujado-mano-dia-nacional-medico_23-2149438164.jpg?size=626&ext=jpg&ga=GA1.1.496371488.1724340792&semt=ais_hybrid');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
             background-color: #f8f9fa;
         }
         h1 {
@@ -37,27 +33,31 @@
             font-size: 24px;
             text-align: center;
         }
-        .finalizar-btn {
-            display: block;
-            margin: 20px auto;
+        /* Centrar el botón y personalizar el estilo */
+        .btn-center {
             text-align: center;
-            background-color: #007bff; /* Cambiar el color de fondo del botón */
-            color: #fff; /* Cambiar el color del texto del botón a blanco */
-            padding: 10px 20px; /* Aumentar el espacio alrededor del texto */
-            border: none; /* Eliminar el borde */
-            border-radius: 5px; /* Agregar bordes redondeados */
-            font-weight: bold; /* Hacer el texto en negrita */
-            text-decoration: none; /* Eliminar subrayado del enlace */
-            transition: background-color 0.3s; /* Agregar transición suave al color de fondo */
+            margin-top: 20px;
         }
-        .finalizar-btn:hover {
-            background-color: #0056b3; /* Cambiar el color de fondo del botón al pasar el mouse */
+        .custom-btn {
+            display: inline-block;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .custom-btn:hover {
+            background-color: #0056b3;
         }
     </style>
     <title>Total de Ganancias</title>
 </head>
 <body>
-    <h1>TOTAL DE GANANCIAS <i class="fas fa-chart-line"></i></h1>
+    <h1>GANANCIAS DEL PRODUCTO VENDIDO<i class="fas fa-chart-line"></i></h1>
     <hr>
     <?php 
         if(isset($_GET['error'])){
@@ -98,6 +98,8 @@
     ?>
 
     <hr>
-    <a href="productos.php" class="btn btn-primary finalizar-btn">FINALIZAR <i class="fas fa-check"></i></a>
+    <div class="btn-center">
+        <a href="productos.php" class="custom-btn">ATRÁS <i class="fas fa-check"></i></a>
+    </div>
 </body>
 </html>
