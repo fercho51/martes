@@ -133,6 +133,13 @@
             </tr>
             <tr>
                 <td>
+                    <a href="descuentos2.php" class="btn btn-lg btn-outline-secondary w-100">
+                        <i class="fas fa-list icon"></i> DESCUENTOS A USUARIOS POR REGISTRASE
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <a href="total.php" class="btn btn-lg btn-outline-success w-100">
                         <i class="fas fa-dollar-sign icon"></i> MOSTRAR TOTAL
                     </a>
