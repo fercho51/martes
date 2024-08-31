@@ -99,7 +99,7 @@
 <body>
     <div class="d-flex align-items-center">
         <h1 class="display-1">FARMACIAS</h1>
-        <p class="h2">MENU DE OPCIONES</p>
+        <p class="h2">MENU DE OPCIONES  puedes seleccionesr tu orden</p>
     </div>
 
     <form action="productos.php" method="POST">
